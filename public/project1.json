@@ -1,25 +1,25 @@
  [
       {
         "id": 1,
-        "img": "calculator-image-url.jpg",
+        "img": "https://i.ibb.co/jwZDmqm/user-friendly.jpg",
         "title": "User-Friendly Interface",
         "description": "The user interface is thoughtfully designed for ease of use. It provides a clean and intuitive layout that allows users to input their calculations with convenience and efficiency."
       },
       {
         "id": 2,
-        "img": "validation-image-url.jpg",
+        "img": "https://i.ibb.co/RDchh90/input-validation.jpg",
         "title": "Input Validation",
         "description": "I incorporated robust input validation to ensure that the calculator responds gracefully to user inputs. This minimizes errors and enhances the overall user experience."
       },
       {
         "id": 3,
-        "img": "error-handling-image-url.jpg",
+        "img": "https://i.ibb.co/vJGHH6m/error.png",
         "title": "Error Handling",
         "description": "To enhance user experience, I implemented error handling mechanisms, ensuring that the calculator provides clear and informative error messages for invalid inputs."
       },
       {
         "id": 4,
-        "img": "code-efficiency-image-url.jpg",
+        "img": "https://i.ibb.co/7rw7JjX/code.png",
         "title": "Code Efficiency",
         "description": "My code is optimized for efficiency, making the calculator responsive and capable of handling complex calculations without performance issues."
       }
