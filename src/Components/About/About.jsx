@@ -68,7 +68,7 @@ const About = () => {
             digital realm.
           </p>
 
-          <h5 className="text-lg font-medium">Thank you for visiting my portfolio!</h5>
+          <h5 className="text-xl font-medium py-5">Thank you for visiting my portfolio!</h5>
         </div>
         <img src={about} className='max-w-sm md:max-w-[30rem] md:h-96 shadow-lg rounded-lg mr-5 '/>
         </div>

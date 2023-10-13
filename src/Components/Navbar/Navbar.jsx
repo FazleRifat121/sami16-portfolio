@@ -3,6 +3,7 @@ import bio from '../../assets/bio.jpg';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { BsFacebook, BsLinkedin} from 'react-icons/bs';
 import { useState } from "react";
+import './back.css'
 
 const Navbar = () => {
     const [show,setShow] = useState(false)
@@ -41,8 +42,8 @@ const Navbar = () => {
         </>
       );
   return (
-    <div className="bg-base-200 md:min-h-screen">
-      <div className="md:pt-10 md:ml-32 ml-8">
+    <div className="back py-5 md:min-h-screen ">
+      <div className="md:pt-10 md:ml-24 ml-8">
         {/* logo */}
         <div className="flex justify-between items-center">
         <Link to="/">
@@ -66,7 +67,7 @@ const Navbar = () => {
       </div>
       {/* hero */}
       <div className={`md:mt-5 md:flex ${show?"":"hidden"}`}>
-          <div className="md:ml-20 bg-base-200">
+          <div className="md:ml-20 ">
             <div className="hero-content flex-col lg:flex-row items-center">
               <img
                 src={bio}

@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-
-
 import Project from "./Project";
 import { PropTypes } from 'prop-types';
 
@@ -19,7 +17,7 @@ const Portfolio = () => {
         <hr className="border border-green-400 " />
         <p>I successfully completed a comprehensive C++ course at American International University Bangladesh. This course provided me with a strong foundation in C++ programming, covering both theoretical concepts and practical application. Here&apos;s what I gained:</p>
       </div>
-      <div className="ml-5 mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="md:ml-5 mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {
             cards.map(card =><Project key={card.id} card={card}></Project> )
         }
