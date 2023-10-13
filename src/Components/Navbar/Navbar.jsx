@@ -42,7 +42,7 @@ const Navbar = () => {
         </>
       );
   return (
-    <div className="back py-5 md:min-h-screen ">
+    <div className="back py-5 md:min-h-screen " data-aos="fade-right" data-aos-duration ='1000'>
       <div className="md:pt-10 md:ml-24 ml-8">
         {/* logo */}
         <div className="flex justify-between items-center">

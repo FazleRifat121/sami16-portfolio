@@ -10,7 +10,7 @@ const MainLayout = () => {
             <div className='md:w-1/3' >
             <Navbar></Navbar>
             </div>
-            <div className='md:w-2/3'>
+            <div className='md:w-2/3' data-aos="fade-down" data-aos-duration="1000">
             <Outlet></Outlet>
             </div>
             
