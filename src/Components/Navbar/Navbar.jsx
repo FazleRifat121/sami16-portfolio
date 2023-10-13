@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import bio from '../../assets/bio.jpg';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { BsFacebook, BsLinkedin} from 'react-icons/bs';
 import { useState } from "react";
 
 const Navbar = () => {
@@ -45,7 +46,7 @@ const Navbar = () => {
         {/* logo */}
         <div className="flex justify-between items-center">
         <Link to="/">
-          <h1 className="text-4xl font-medium text-green-500">Sami</h1>
+          <h1 className="text-4xl font-medium text-green-500">Samiul Haque</h1>
         </Link>
          {/* responsive */}
          <div className="dropdown  bg-base-100 mr-10 md:hidden " onClick={()=>setShow(!show)}>
@@ -65,7 +66,7 @@ const Navbar = () => {
       </div>
       {/* hero */}
       <div className={`md:mt-5 md:flex ${show?"":"hidden"}`}>
-          <div className="md:ml-20 min-h-screen bg-base-200">
+          <div className="md:ml-20 bg-base-200">
             <div className="hero-content flex-col lg:flex-row items-center">
               <img
                 src={bio}
@@ -73,14 +74,21 @@ const Navbar = () => {
               />
               <div>
                 <p className="text-xs">
-                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                  assumenda excepturi exercitationem quasi. In deleniti eaque
-                  aut repudiandae et a id nisi.
+                  Hi!, I am S.M Samiul Haque. Currently I am studying at AIUB university in Dhaka,Bangladesh.I am doing B.Sc in CSE.
                 </p>
               </div>
             </div>
           </div>
         </div>
+        {/* links */}
+      <div className="md:mt-5 md:ml-20">
+          <h1 className="text-xl">Social Links</h1>
+          <hr className="border border-green-400 "/>
+          <div className="mt-4 flex gap-2">
+            <Link to="https://www.facebook.com/SamiulHaque.Sam16/"><BsFacebook className="text-3xl hover:text-green-400 hover:-translate-y-2"></BsFacebook></Link>
+            <Link to="https://www.linkedin.com/in/samiul-haque-181993295/"><BsLinkedin className="text-3xl hover:text-green-400 hover:-translate-y-2"></BsLinkedin></Link>
+          </div>
+      </div>
     </div>
   );
 };
