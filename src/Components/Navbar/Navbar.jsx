@@ -50,7 +50,7 @@ const Navbar = () => {
           <h1 className="text-4xl font-medium text-green-500">Samiul Haque</h1>
         </Link>
          {/* responsive */}
-         <div className="dropdown  bg-base-100 mr-10 md:hidden " onClick={()=>setShow(!show)}>
+         <div className="dropdown  mr-10 md:hidden " onClick={()=>setShow(!show)}>
             {
                 show?<AiOutlineClose className="text-3xl font-bold"></AiOutlineClose>:<AiOutlineMenu className="text-3xl font-bold"></AiOutlineMenu>
                 
