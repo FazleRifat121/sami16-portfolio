@@ -8,7 +8,7 @@ const About = () => {
         <div className='flex flex-col-reverse md:flex-row gap-6 mt-4'>
         <div>
           <p className="py-2">
-            I am a recent computer science graduate with a strong passion for
+            I am a recent computer science student with a strong passion for
             technology and a deep-rooted curiosity about the digital world.
             During my academic journey at American International University
             Bangladesh, I&apos;ve had the opportunity to explore a wide range of
