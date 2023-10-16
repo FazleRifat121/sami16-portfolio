@@ -75,7 +75,7 @@ const Navbar = () => {
               />
               <div>
                 <p className="text-xs">
-                  Hi!, I am S.M Samiul Haque. Currently I am studying at AIUB university in Dhaka,Bangladesh.I am doing B.Sc in CSE.
+                  Hi!, I am S.M Samiul Haque. Currently I am studying at AIUB.I am doing B.Sc in CSE.
                 </p>
               </div>
             </div>

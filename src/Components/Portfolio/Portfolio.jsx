@@ -15,7 +15,7 @@ const Portfolio = () => {
       <div className="ml-5 mt-8">
         <h1 className="text-xl text-gray-600 font-bold">PORTFOLIO</h1>
         <hr className="border border-green-400 " />
-        <p>I successfully completed a comprehensive C++ course at American International University Bangladesh. This course provided me with a strong foundation in C++ programming, covering both theoretical concepts and practical application. Here&apos;s what I gained:</p>
+        <p>Welcome to my digital portfolio! I am Samiul Haque, a recent graduate in Computer Science and Engineering (CSE) with a passion for technology, innovation, and problem-solving. Throughout my academic journey, I have honed my skills in various areas of computer science, including software development, data analysis, machine learning, and more. This portfolio serves as a showcase of my academic and personal projects.</p>
       </div>
       <div className="md:ml-5 mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {
