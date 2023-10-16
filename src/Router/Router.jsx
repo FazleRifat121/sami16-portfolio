@@ -4,6 +4,7 @@ import Portfolio from "../Components/Portfolio/Portfolio";
 import About from "../Components/About/About";
 import Contact from "../Components/Contact/Contact";
 import ProjectDetails from "../Components/Portfolio/ProjectDetails";
+import PhotoDetails from "../Components/Portfolio/PhotoDetails";
 
 
 
@@ -22,6 +23,11 @@ const Router = createBrowserRouter([
                 path:'/project1/:id',
                 element:<ProjectDetails></ProjectDetails>,
                 loader:()=>fetch('project1.json')
+            },
+            {
+                path:'/project2/:id',
+                element:<PhotoDetails></PhotoDetails>,
+                loader:()=>fetch('project2.json')
             },
             {
                 path:'/about',
