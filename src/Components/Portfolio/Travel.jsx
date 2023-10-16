@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
-const Photos = ({ card }) => {
+const Travel = ({ card }) => {
   const { id,title, img } = card;
   return (
     <div>
-      <Link to={`/project2/${id}`}><div className="card max-w-sm md:max-w-2xl mx-auto  bg-base-100 shadow-xl">
+      <Link to={`/project3/${id}`}><div className="card max-w-sm md:max-w-xl mx-auto  bg-base-100 shadow-xl">
         <figure>
           <img
             src={img}
@@ -24,7 +24,7 @@ const Photos = ({ card }) => {
   );
 };
 
-export default Photos;
-Photos.propTypes = {
+export default Travel;
+Travel.propTypes = {
   card: PropTypes.obj
 };
