@@ -82,7 +82,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* links */}
-      <div className={`md:mt-5 md:ml-20 md:flex md:flex-col ml-8 ${show?"":"hidden"}`}>
+      <div className={`md:mt-5 md:ml-24 md:flex md:flex-col ml-8 ${show?"":"hidden"}`}>
           <h1 className="text-xl">Social Links</h1>
           <hr className="border border-green-400 "/>
           <div className=" py-4 flex gap-2">
